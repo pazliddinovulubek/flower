@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+ul li:hover {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+ul li:nth-child(3) {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.card img {
+  width: 600px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 60px;
+}
+
+.card p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.card button {
+  padding: 10px;
+  width: 200px;
+  background: none;
+}
+
+.page img {
+  width: 550px;
+  height: 500px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 50px;
+  text-align: center;
+}
+
+.page p {
+  width: 400px;
+  text-align: center;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.page h1 {
+  font-size: 40px;
+}
+
+.page {
+  text-align: center;
+  background: whitesmoke;
+}
+
+.collections_title {
+  text-align: center;
+  padding: 40px;
+}
+
+.collections_title h1 {
+  font-size: 45px;
+}
+
+.collections_images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.cards {
+  background: #f5f5f5;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+
+.cards img {
+  height: 400px;
+  width: 400px;
+}
+
+.super{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #000;
+}
+.cord img{
+  width: 950px;
+  height: 850px;
+}
+.cord:nth-child(1){
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
